@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MineSweeper</h1>
+    <div class="form-table" id="form">
+        <h3>Create table</h3>
+        <input class="input-form" type="text" id="player_name" placeholder="Player name">
+        <input class="input-form" type="number" name="height" id="height" placeholder="Table height" max="20" min="5">
+        <input class="input-form" type="number" name="width" id="width" placeholder="Table width" max="20" min="5">
+        <input class="input-form" type="number" name="mine_number" id="number" placeholder="Mine Number (10% - 40%)" min="10" max="40">
+        <button id="create">Create</button>
+    </div>
+    <div class="table" id="table" onclick="to_move(event)" hidden="true">
+        <h3 id="tableTitle">Table</h3>
+    </div>
+    <script src="js/site.js"></script>
+</body>
+</html>

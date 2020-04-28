@@ -1,0 +1,15 @@
+
+div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.input-form {
+    display: block;
+    width: 100%;
+}
+
+.tableBox {
+    width: 40px;
+    height: 40px;
+}
